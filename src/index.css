@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*组件样式覆盖*/
+.recordPage .ant-tabs-nav .ant-tabs-tab {
+    padding: 5px 30px;
+    margin: 0 2px 0 0;
+    font-size: 16px;
+    color: #408cf9;
+    background-color: #bfd9fd;
+}
+
+.recordPage .ant-tabs-nav .ant-tabs-tab-active {
+    color: #fff;
+    background-color: #1890ff;
+}
+
+.recordPage .ant-tabs-ink-bar {
+    display: none !important;
+}
+
+.recordPage .ant-tabs-bar {
+    border-bottom: 0;
+}
+
+/*.ant-input,
+.ant-btn,
+.ant-select-selection,
+.ant-select-selection,
+.ant-input-group-addon {
+    border-radius: 0;
+}*/
+
+.ant-upload-list-item-info > span {
+    height: 100%;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-actions > i,
+.ant-upload-list-text .ant-upload-list-item-done > i {
+    display: none !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    padding: 5px 30px;
+    margin: 0 2px 0 0;
+    font-size: 16px;
+    color: #1890ff;
+    background-color: #bfd9fd;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #fff;
+    background-color: #1890ff;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active:hover {
+    color: #fff;
+    opacity: .9;
+}
+
+.ant-tabs-link-bar {
+    display: none !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab.defaultExpandAll:hover {
+    color: #fff;
+}
+
+.ant-tabs-bar {
+    padding-bottom: 2px;
+    /*border-bottom: 1px solid #1890ff;*/
+}
+
+.cloudPage .ant-tabs .ant-tabs-bar {
+    border-bottom: 0;
+}
+
+#main .ant-menu.ant-menu-dark .ant-menu-item-selected, 
+#main .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #1890ff;
+}
+
+.login-form .ant-input-affix-wrapper > input {
+    border-radius: 0;
+    padding-left: 40px !important;
+}
+
+/*.login-form input::-webkit-input-placeholder,
+.login-form input:-moz-placeholder,
+.login-form input::-moz-placeholder,
+.login-form input:-ms-input-placeholder {
+    color: #789ac3;
+}*/
+
+.menuList {
+    padding-right: 280px;
+}
+
+.ant-layout-sider-collapsed + div .ant-layout-header .menuList {
+    padding-right: 104px;
+}
+
+.errorModal .ant-modal-body{
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.inspectionTable table thead tr th:nth-child(2) > div:before,
+.inspectionTable table thead tr th:nth-child(3) > div:before,
+.inspectionTable table thead tr th:nth-child(4) > div:before,
+.inspectionTable table thead tr th:nth-child(5) > div:before,
+.inspectionTable table thead tr th:nth-child(6) > div:before {
+    display: inline-block;
+    padding-right: 4px;
+    content: '*';
+    font-family: SimSun;
+    left: 10px;
+    font-size: 14px;
+    color: #f5222d;
+}
+
+.equipmentsTable table tbody tr td {
+    word-break: break-all;
+}
+
+.ant-input-disabled,
+.ant-input-number-disabled,
+.ant-select-disabled,
+.ant-cascader-picker-disabled {
+    color: #666 !important;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    background-color: #C5C5C5;
+}
